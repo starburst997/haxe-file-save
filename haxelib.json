@@ -1,0 +1,12 @@
+{
+  "name" : "file-save",
+  "url" : "https://github.com/starburst997/haxe-file-save",
+  "license" : "MIT",
+  "tags": ["bytes", "resource", "save", "openfl"],
+  "description" : "Simple String / Bytes saving in Haxe with minimal dependency supporting JS / Flash / OpenFL.",
+  "version" : "0.0.1",
+  "classPath": "src/",
+  "releasenote" : "",
+  "contributors" : ["starburst997"],
+  "dependencies" : {}
+}
