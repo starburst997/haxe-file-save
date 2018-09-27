@@ -37,6 +37,15 @@ class FileSave
   // No need to instantiate
   private function new() {}
 
+  // Write Bytes
+  public static inline function writeBytes(bytes:Bytes, path:String) {
+    #if sys
+    sys.io.File.saveBytes(path, bytes);
+    #else
+    throw 'Not implemented';
+    #end
+  }
+
   // Save Bytes
   private static function _saveBytes(bytes:Bytes, name:String = DEFAULT_BYTES_NAME, type:String = DEFAULT_BYTES_TYPE)
   {
